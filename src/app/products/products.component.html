@@ -3,7 +3,7 @@
 </div> -->
 
 <div *ngFor="let product of products; let i = index">
-    <div class = "products-container" [ngStyle]="{backgroundColor: product.available == 'available'? 'lightGreen' : 'lightCoral'}">
+    <div class = "products-container" [ngStyle]="{backgroundColor: product.available == 'available'? '' : '#f5d7d0'}">
         <div class= "image-container"><img src="{{product.image}}" style="max-height: 50px; max-width: 50px;"></div>
         <div>
             <div class = "name-container"><h6>{{product.name}}</h6></div>

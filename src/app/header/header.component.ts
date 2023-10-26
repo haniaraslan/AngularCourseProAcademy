@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent{
-  slogan: string = 'your one stop shop for everything';
-  imgSrc: string = '../../assets/shopping.avif';
+  slogan: string = 'Your One Stop Shop for Everything';
+  imgSrc: string = '../../assets/websiteIcon.png';
   
   getSlogan(){
     return this.slogan;

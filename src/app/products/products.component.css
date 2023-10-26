@@ -31,9 +31,3 @@
     padding: 2px 10px;
     font-size: 12px;
 }
-.fadeOut{
-    background-color : blue;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0 2s, opacity 2s linear;
-}

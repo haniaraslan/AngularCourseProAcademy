@@ -1,10 +1,10 @@
 .nav-bar{
     display: flex;
-    background-color: aliceblue;
+    background-color: #b7ab9f;
 }
 .site-name{
     padding: 5px 30px;
-    color: darkcyan;
+    color: #3b2d23;
 }
 .site-menu{
     padding: 10px 30px;
@@ -12,6 +12,6 @@
 }
 a{
     text-decoration: none;
-    color: blue;
+    color: #8c7760;
     margin: 0px 10px;
 }
